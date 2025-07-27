@@ -1,0 +1,17 @@
+{
+  "name": "bart-excel-api",
+  "version": "1.0.0",
+  "description": "World's most advanced Excel calculation engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Test placeholder\""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@aws-sdk/client-secrets-manager": "^3.450.0"
+  }
+}
